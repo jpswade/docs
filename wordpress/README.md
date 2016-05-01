@@ -67,7 +67,9 @@ db:
     MYSQL_ROOT_PASSWORD: example
 ```
 
-Run `docker-compose up`, wait for it to initialize completely, and visit `http://localhost:8080` or `http://host-ip:8080`.
+Run `docker-compose up`, wait for it to initialize completely.
+
+Then visit http://`docker-machine ip default`:8080/, eg: http://192.168.99.100:8080/
 
 ## Adding additional libraries / extensions
 
